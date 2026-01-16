@@ -1,0 +1,9 @@
+<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_2651_9870)">
+    <path d="M6.25 8.125L9.375 11.25L18.75 1.875" stroke="#0079D2" stroke-width="2" stroke-miterlimit="10"
+          stroke-linecap="square"/>
+    <path
+      d="M17.5 8.75V16.875C17.5 17.9106 16.6606 18.75 15.625 18.75H3.125C2.08938 18.75 1.25 17.9106 1.25 16.875V4.375C1.25 3.33938 2.08938 2.5 3.125 2.5H12.5"
+      stroke="#0079D2" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+  </g>
+</svg>

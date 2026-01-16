@@ -1,0 +1,15 @@
+@reference "../globals.css";
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  @apply h-8 w-8 rounded-full 
+    border-4 
+    border-white
+    border-t-[#bd0000];
+  animation: spinner 1s linear infinite;
+}

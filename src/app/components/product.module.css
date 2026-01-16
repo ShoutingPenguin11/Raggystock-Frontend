@@ -1,0 +1,5 @@
+@reference "../globals.css";
+
+.cardHover {
+  @apply transition-transform duration-300 ease-out hover:scale-105;
+}

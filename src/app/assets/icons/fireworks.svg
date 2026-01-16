@@ -1,0 +1,24 @@
+<svg viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40.8276" cy="40.8276" r="40.8276" fill="#F9FAFB" />
+  <path
+    d="M44.8168 27.4664L42.4658 27.1245L41.4145 24.9946L40.3632 27.1245L38.0122 27.4664L39.7134 29.1242L39.3119 31.4658L41.4145 30.3609L43.5171 31.4658L43.1157 29.1242L44.8168 27.4664Z"
+    stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10" stroke-linecap="square" />
+  <path d="M32.0581 41.4141C32.0581 41.4141 41.4144 44.8164 41.4144 60.1267" stroke="#BD0000" stroke-width="1.70115"
+    stroke-miterlimit="10" stroke-linecap="square" />
+  <path d="M50.7709 41.4141C50.7709 41.4141 41.4146 44.8164 41.4146 60.1267" stroke="#BD0000" stroke-width="1.70115"
+    stroke-miterlimit="10" stroke-linecap="square" />
+  <path d="M41.4146 37.1616V42.2651" stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10"
+    stroke-linecap="square" />
+  <path
+    d="M32.058 52.3917L29.707 52.0498L28.6557 49.9199L27.6044 52.0498L25.2534 52.3917L26.9546 54.0495L26.5531 56.3911L28.6557 55.2862L30.7583 56.3911L30.3569 54.0495L32.058 52.3917Z"
+    stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10" stroke-linecap="square" />
+  <path
+    d="M57.5751 52.3917L55.2241 52.0498L54.1728 49.9199L53.1215 52.0498L50.7705 52.3917L52.4717 54.0495L52.0702 56.3911L54.1728 55.2862L56.2754 56.3911L55.874 54.0495L57.5751 52.3917Z"
+    stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10" stroke-linecap="square" />
+  <path
+    d="M25.6787 40.5639C26.8531 40.5639 27.8051 39.6119 27.8051 38.4375C27.8051 37.2631 26.8531 36.311 25.6787 36.311C24.5043 36.311 23.5522 37.2631 23.5522 38.4375C23.5522 39.6119 24.5043 40.5639 25.6787 40.5639Z"
+    stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10" stroke-linecap="square" />
+  <path
+    d="M57.1499 40.5639C58.3243 40.5639 59.2763 39.6119 59.2763 38.4375C59.2763 37.2631 58.3243 36.311 57.1499 36.311C55.9755 36.311 55.0234 37.2631 55.0234 38.4375C55.0234 39.6119 55.9755 40.5639 57.1499 40.5639Z"
+    stroke="#BD0000" stroke-width="1.70115" stroke-miterlimit="10" stroke-linecap="square" />
+</svg>
