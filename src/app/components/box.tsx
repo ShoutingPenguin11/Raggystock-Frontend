@@ -1,4 +1,3 @@
-import React from 'react';
 import type { MouseEvent, JSX } from 'react';
 
 type Props<T = Record<string, unknown>> = {
@@ -37,7 +36,6 @@ const Box = ({ as: asProp = 'div', className = '', autoComplete, children, ref, 
   const HTMLElement: string = asProp;
 
   return (
-    // @ts-expect-error Unsure how to fix this typescript error. We're passing a dynamic html tag here, which typescript doesn't seem to understand very well.
     <HTMLElement
       {...(autoComplete && { autoComplete: autoComplete })}
       className={className}

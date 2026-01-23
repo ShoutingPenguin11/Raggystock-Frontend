@@ -98,7 +98,7 @@ export default function ARView({ endARSession, spinLeft, spinRight }: ARViewProp
       model.position.y -= box2.min.y;
 
       model.visible = false;
-      model.rotateY();
+      model.rotateY(25);
       scene.add(model);
       modelRef.current = model;
     });
@@ -140,7 +140,7 @@ export default function ARView({ endARSession, spinLeft, spinRight }: ARViewProp
 
         if (!hitTestRequestedRef.current && session) {
           session.requestReferenceSpace('viewer').then((space) => {
-            session.requestHitTestSource({ space }).then((source) => {
+            session.requestHitTestSource?.({ space })?.then((source) => {
               hitTestSourceRef.current = source;
             });
           });

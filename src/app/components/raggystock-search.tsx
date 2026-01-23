@@ -6,7 +6,7 @@ import { useState, useRef, useEffect } from 'react';
 import text from '@/app/config/text/en';
 
 import type RaggystockSearch from '../types/RaggystockSearchProps';
-import type ChatQuery from '@/app/types/ChatBotResponseBoxProps';
+import type ChatQuery from '@/app/types/ChatQuery';
 import type ChatResponse from '@/app/types/QueryResponseProps';
 
 import styles from '@/app/components/raggystock-search.module.css';
@@ -20,7 +20,7 @@ const RaggystockSearch = (props: RaggystockSearch) => {
   const clientInstanceRef = useRef<WebSocket | null>(null);
 
   async function postQuery() {
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = document.getElementById('searchInput') as HTMLInputElement;
 
     if (searchInput) {
       searchInput.value = '';
@@ -46,7 +46,7 @@ const RaggystockSearch = (props: RaggystockSearch) => {
   };
 
   const handleSearchClick = () => {
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = document.getElementById('searchInput') as HTMLInputElement;
     if (searchInput) {
       const searchInputValue: string = searchInput.value;
       if (searchInputValue.length !== 0) {
