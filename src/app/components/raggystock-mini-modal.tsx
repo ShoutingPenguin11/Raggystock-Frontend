@@ -8,7 +8,7 @@ type RaggystockMiniModalProps = {
 const RaggystockMiniModal: React.FC<RaggystockMiniModalProps> = ({ handleClick }) => {
   return (
     <BlankButton className="fixed bottom-6 right-6 cursor-pointer z-1" onClick={handleClick}>
-      <RaggystockLogo className="rounded-[10px]" width={'80px'} />
+      <RaggystockLogo className="rounded-[10px] w-[70px] md:w-[80px]" />
     </BlankButton>
   );
 };

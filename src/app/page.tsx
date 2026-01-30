@@ -92,7 +92,7 @@ export default function Home() {
         </Box>
 
         {/* Tiles */}
-        <Box className="grid grid-cols-2 gap-4 m-[40px_100px_40px_100px]">
+        <Box className="grid grid-cols-2 gap-4 m-[3vw]">
           <Box className="relative">
             <Image src={Tile1Background} alt="tile banner background" />
             <ExtraTenPercentOff className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none" />
@@ -112,13 +112,13 @@ export default function Home() {
         </Box>
 
         {/*Banner*/}
-        <Box className="bg-[#bd0000] m-[0px_100px_0px_100px]">
-          <DownloadTheAppBanner />
+        <Box className="bg-[#bd0000] m-[1vw_3vw_1vw_3vw]">
+          <DownloadTheAppBanner className="w-full" />
         </Box>
 
-        <Box className="text-center font-bold text-[32px] m-[40px_0px_40px_0px]">Featured Fall Finds</Box>
+        <Box className="text-center font-bold md:text-[32px] m-[3vw_0_3vw_0]">Featured Fall Finds</Box>
 
-        <Box className="grid grid-cols-2 gap-4 m-[40px_100px_40px_100px]">
+        <Box className="grid grid-cols-2 gap-4 m-[3vw]">
           <Box className="relative">
             <Image src={DualTile1Background} alt="tile banner background" />
             <MidCentryModernEdit className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none" />
@@ -129,9 +129,9 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box className="text-center font-bold text-[32px] m-[40px_0px_40px_0px]">Shop Deals by Category</Box>
+        <Box className="text-center font-bold md:text-[32px] m-[3vw_0_3vw_0]">Shop Deals by Category</Box>
 
-        <Box className="grid grid-cols-4 gap-4 m-[40px_100px_40px_100px]">
+        <Box className="grid grid-cols-4 gap-4 m-[3vw]">
           <Image src={FurnitureTile} alt="tile banner background" />
           <Image src={PatioTile} alt="tile banner background" />
           <Image src={RugsTile} alt="tile banner background" />
@@ -142,9 +142,9 @@ export default function Home() {
           <Image src={BathTile} alt="tile banner background" />
         </Box>
 
-        <Box className="text-center font-bold text-[32px] m-[40px_0px_40px_0px]">Upgrade your Look for Fall</Box>
+        <Box className="text-center font-bold md:text-[32px] m-[3vw_0_3vw_0]">Upgrade your Look for Fall</Box>
 
-        <Box className="grid grid-cols-2 gap-4 m-[40px_100px_40px_100px]">
+        <Box className="grid grid-cols-2 gap-4 m-[3vw]">
           <Box className="relative">
             <Image src={NewInDesignerFallBackground} alt="tile banner background" />
             <NewInDesignerFall className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none" />
@@ -155,13 +155,13 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box className="bg-[#bd0000] m-[0px_100px_0px_100px]">
+        <Box className="bg-[#bd0000] m-[3vw]">
           <DownloadTheAppBanner />
         </Box>
 
-        <Box className="text-center font-bold text-[32px] m-[40px_0px_40px_0px]">Brands We Love</Box>
+        <Box className="text-center font-bold md:text-[32px] m-[3vw_0_3vw_0]">Brands We Love</Box>
 
-        <Box className="grid grid-cols-2 gap-4 m-[40px_100px_40px_100px]">
+        <Box className="grid grid-cols-2 gap-4 m-[3vw]">
           <Box className="relative">
             <Image src={Tile1Background} alt="tile banner background" />
             <ExtraTenPercentOff className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none" />

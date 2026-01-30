@@ -17,16 +17,16 @@ const RaggystockModal: React.FC<RaggystockModalProps> = ({ handleClose }) => {
   };
 
   return (
-    <Box className="relative w-[400px] h-[400px] border border-[#DADCDF] border-solid m-5 rounded-[10px] flex flex-col justify-center bg-white">
+    <Box className="relative md:w-[400px] md:h-[400px] border border-[#DADCDF] border-solid m-5 rounded-[10px] flex flex-col justify-center bg-white">
       <BlankButton className="absolute top-0 right-0 p-[5px] cursor-pointer" onClick={handleClose}>
         <Close className="w-[30px]" />
       </BlankButton>
 
       <Box className="flex justify-center m-[10px]">
-        <RaggystockLogo width={'180px'} />
+        <RaggystockLogo className="w-[100px] md:w-[180px]" />
       </Box>
 
-      <Box className="p-[30px]">{text.raggystockModalBlurb}</Box>
+      <Box className="p-[15px] max-w-[220px] md:p-[30px] md:max-w-full">{text.raggystockModalBlurb}</Box>
       <Box className="flex justify-center m-[10px]">
         <BlankButton
           onClick={handleClick}
