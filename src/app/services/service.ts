@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'http://34.39.13.91:8080/';
 
 export const service = {
   async getHealth() {
