@@ -10,9 +10,10 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+  console.log('product: ', product);
   const router = useRouter();
 
-  if (!product) {
+  if (!product || product?.image == undefined) {
     return;
   }
 
