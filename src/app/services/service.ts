@@ -1,4 +1,4 @@
-const BASE_URL = 'http://34.39.13.91:8080/';
+const BASE_URL = 'https://vm-proxy-610681465338.europe-west2.run.app/';
 
 export const service = {
   async getHealth() {

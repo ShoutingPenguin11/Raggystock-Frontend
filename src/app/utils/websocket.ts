@@ -15,7 +15,7 @@ export class WebSocket {
   public connect = (chatHandler: ChatResponseHandler) => {
     this.chatResponseHandler = chatHandler;
 
-    const socket = new SockJS('http://34.39.13.91:8080/ws');
+    const socket = new SockJS('https://vm-proxy-610681465338.europe-west2.run.app/ws');
     const stompClient = new Client({
       webSocketFactory: () => socket,
       reconnectDelay: 5000,
